@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Schedool</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito&family=Satisfy&display=swap" rel="stylesheet">
+
+    <!-- icon script -->
+    <script src="https://kit.fontawesome.com/0cceb2700c.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section id="title">
+      <!-- navbar -->
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#">Schedool</a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
+              <li class="nav-item"><a href="#testimonial" class="nav-link">Testimonials</a></li>
+              <li class="nav-item"><a href="#footer" class="nav-link">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <h1 class="big-heading">Book meetings faster with the smart scheduling.</h1>
+            <p class="texts">Display your participants availability from multiple locations, all in one place.</p>
+            <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fa-brands fa-apple"></i> Download</button>
+            <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fa-brands fa-google-play"></i> Download</button>
+        </div>
+
+        <div class="col-lg-6">
+            <img class="title-img " src="images/poster.png" alt="schedule" />
+        </div>
+      </div>
+    </section>
+
+    <!-- features -->
+
+    <section id="features">
+      <div class="row feature">
+        <div class="feat col-lg-4 col-md-6" >
+          <img src="images/time zone.png" class="image" alt="Time Zone Intelligence">
+        <h3 class="price-text">Time Zone Intelligence</h3>
+        <p>
+          Automatically detect your participants time zones and ensure everyone
+          sees the right times
+        </p>
+        </div>
+  
+       <div class="feat col-lg-4 col-md-6">
+        <img src="images/connect.png" class="image" alt="Connect and grow">
+        <h3>Connect and Grow</h3>
+        <p>Works great for individuals, teams and departments
+        </p>
+       </div>
+  
+        <div class="feat col-lg-4 col-md-6">
+          <img src="images/calendar.png" class="image" alt="Private Calendar">
+        <h3>Private Calendar</h3>
+        <p>
+          When new bookings are scheduled, we create an event on your calendar
+          with all the information provided by your participants
+        </p>
+        </div>
+  
+        <div class="feat col-lg-4 col-md-6">
+          <img src="images/azure.png" class="image" alt="Secure on Azure">
+        <h3>Secure on Azure</h3>
+        <p>
+          An Azure SaaS solution, we provide a secure foundation across physical,
+          infrastructure, and operational security.
+        </p>
+        </div>
+  
+        <div class="feat col-lg-4 col-md-6">
+          <img src="images/setting.png" class="image" alt="Custom Settings">
+        <h3>Custom Settings</h3>
+        <p>
+          Outsmart back-and-forth emails by giving a clear visual snapshot of your
+          availability and work hours.
+        </p>
+        </div>
+  
+        <div class="feat col-lg-4 col-md-6">
+          <img src="images/integration.png" class="image" alt="Smart Integration">
+        <h3>Smart Integration</h3>
+        <p>
+          Works with your Google or Outlook Office 365 calendar, Zoom and
+          Microsoft Teams
+        </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+
+    <section id="testimonial">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="testimonials-text">
+              Gone are the days where you send a mass email for availibility and have
+              to sort through each person to figure out the best time.
+            </h2>
+            <em>- Boris Rozensky, New York</em>
+      
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonials-text">
+              Anytime more than two people are trying to arrange a meeting, schedool
+              is essential - especially when the meeting extends across time zones.
+            </h2>
+            <em>- Chris Walker, Illinois</em>
+          </div>
+        </div>
+        <a class="carousel-button carousel-control-prev " href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-button carousel-control-next " href="#testimonial-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="press">
+      <img class="imglogo" src="images/techcrunch.png" alt="tc-logo" >
+      <img class="imglogo eww" src="images/tnw.png" alt="tnw-logo" >
+      <img class="imglogo" src="images/mashable.png" alt="mashable-logo" >
+      <img class="imglogo eww" src="images/bizinsider.png" alt="biz-insider-logo" >
+    </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <h2>A Plan for your Needs</h2>
+      <p>Simple and affordable price plans to make your life simpler.</p>
+    <div class="row">
+
+      <div class="pricing-col col-lg-4 col-md-6">
+
+        <div class="card ">
+          <div class="card-header">
+            <h2>BASIC</h2>
+            
+          </div>
+          <div class="card-body">
+            <h2>Free</h2>
+            <p>One event type</p>
+            <p>1 calendar connection per user</p>
+            <p class="hide">........</p>
+            <p class="hide">........</p>
+            <button type="button" class="btn btn btn-outline-dark btn-lg btn-block">Register Now</button>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class="pricing-col col-lg-4 col-md-6">
+
+        <div class="card">
+          <div class="card-header">
+            <h2>PREMIUM</h2>
+            
+          </div>
+          <div class="card-body">
+            <h2>$4 USD/ month</h2>
+            <p>Unlimited event types</p>
+            <p>2 calendar connection per user</p>
+            <p>Personalized Schedool link</p>
+            <p class="hide">........</p>
+            <button type="button" class="btn btn btn-dark btn-lg btn-block">Sign Up</button>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class="pricing-col col-lg-4">
+
+        <div class="card">
+          <div class="card-header">
+            <h2>PRO</h2>
+            
+          </div>
+          <div class="card-body">
+            <h2>$9 USD/ month</h2>
+            <p>Unlimited event types</p>
+            <p>3 calendar connection per user</p>
+            <p>Personalized Schedool link</p>
+            <p>Removable Schedool.me branding</p>
+            <button type="button" class="btn btn btn-dark btn-lg btn-block">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <!-- Call to action -->
+
+    <section id="cta">
+      <div class="download">
+        <h3>Ready to try schedool.me? Download Now.</h3>
+        <button type="button" class="btn btn-dark btn-lg download-btn"><i class="fa-brands fa-apple"></i> Download</button>
+        <button type="button" class="btn btn-outline-light btn-lg download-btn"><i class="fa-brands fa-google-play"></i> Download</button>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <section id="footer">
+      <a class="footer-link" href="https://www.linkedin.com/in/aarushi-singh-530a36226/"><img src="images/linkedIn.png" alt="linkedin" class="linkedin"></a>
+            <a class="footer-link" href="https://twitter.com/"><img src="images/twitter.png" alt="twitter" class="twitter"></a>
+            <a class="footer-link" href="https://www.instagram.com/24aarushi.singh24/"><img src="images/instagram.png" alt="Instagram" class="instagram"></a>
+      <p>© Copyright 2022 Schedool</p>
+    </section>
+  </body>
+</html>

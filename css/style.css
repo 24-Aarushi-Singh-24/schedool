@@ -1,0 +1,209 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+#title {
+  background-color: #256d85;
+  color: #f2df3a;
+}
+
+.texts{
+    color:#fff;
+    font-size: 1.5rem;;
+}
+.container-fluid {
+  padding: 3% 10%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 1rem 0 3.5rem;
+}
+
+.navbar-brand {
+  font-family: "Satisfy", cursive;
+  font-size: 2.5rem;
+  color: #f6f6f6;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: #f6f6f6;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  font-family: "Lilita One", cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Download buttons */
+.download-btn {
+  margin: 5% 3% 5% 0%; /*top right bottom left*/
+}
+
+/* title image */
+/* .title-img{
+    height:70%;
+} */
+
+/* features */
+.feature {
+  background-color: #fff;
+  margin: 10% 5% 10% 5%;
+}
+
+.feat {
+  text-align: center;
+}
+
+/* testimonials */
+
+#testimonial {
+  text-align: center;
+  background-color: #256d85;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+h2 {
+  font-family: "Lilita One", cursive;
+  line-height: 1.5;
+}
+
+#press {
+  text-align: center;
+  background-color: #256d85;
+  padding-bottom: 3%;
+}
+
+.imglogo {
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  width: 10%;
+}
+
+.eww {
+  width: 7%;
+}
+
+/* pricing  */
+
+#pricing {
+  padding: 7%;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 5% 2%;
+}
+
+.card-header {
+  background-color: #11999e;
+  color: #fff;
+}
+
+.hide {
+  color: #fff;
+}
+.card-body {
+  /* background-color: #E4F9F5 ; */
+  padding-top: 7%;
+  font-size: 16px;
+  line-height: 2;
+}
+
+/* Call to Action */
+
+#cta {
+  background-color: #256d85;
+  text-align: center;
+  color: #fff;
+}
+
+h3 {
+  font-family: "Lilita One", cursive;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.download {
+  padding: 5% 5% 3% 5%;
+}
+
+/* Footer */
+
+#footer {
+  padding: 5%;
+  text-align: center;
+}
+
+.twitter {
+  width: 5%;
+  padding-bottom: 3%;
+}
+
+.instagram {
+  width: 5%;
+  padding-bottom: 3%;
+}
+
+.linkedin {
+  width: 5%;
+  padding-bottom: 3%;
+}
+
+.footer-link {
+  text-align: center;
+  margin: 0 3% 0 3%;
+  text-decoration: none;
+}
+
+/* //media query */
+
+@media (max-width: 664px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    padding-top: 100px;
+    height: 70%;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 664px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    padding-top: 40px;
+    height: 90%;
+  }
+}
+
+@media (max-width: 1296px) and (min-width: 992px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    padding-top: 40px;
+    height: 60%;
+  }
+}
+
+@media (max-width: 1528px) and (min-width: 1296px) {
+  .title-img {
+    height: 90%;
+  }
+}
